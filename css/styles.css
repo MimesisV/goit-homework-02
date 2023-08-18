@@ -11,7 +11,7 @@
 }
 
 body {
-    color: var(--regular-text-color);
+    color: #434455;
     background-color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
 }
@@ -36,7 +36,7 @@ button {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.17px; /* 116.667% */
+    line-height: 1.17; /* 116.667% */
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
@@ -84,12 +84,13 @@ button {
 
 /* --- Hero --- */
 .hero-section {
-    background-color: rgba(46, 47, 66, 0.7) ;
+    background-color: #2e2f42 ;
 }
 
 .hero-section-headline {
     color: var(--light-text-color);
 
+    text-align: center;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07; /* 107.143% */
@@ -97,6 +98,8 @@ button {
 }
 
 .hero-section-button {
+    font-family: "Roboto", sans-serif;
+
     color: var(--light-text-color);
     background-color: var(--primary-brand);
 
@@ -104,6 +107,10 @@ button {
     font-weight: 500;
     line-height: 1.5; /* 150% */
     letter-spacing: 0.04em;
+}
+
+.hero-section-button:hover, .hero-section-button:focus {
+    background-color: #404BBF;
 }
 
 /* --- Our strategies --- */
