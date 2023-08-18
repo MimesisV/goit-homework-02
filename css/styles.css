@@ -139,9 +139,14 @@ button {
     background-color: var(--light-mode-color);
 }
 
+.team-item {
+    background-color: #FFFFFF
+}
+
 .team-headline {
     color: var(--dark-text-color);
 
+    text-align: center;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11; /* 111.111% */
@@ -171,6 +176,7 @@ button {
 .portfolio-list-headline {
     color: var(--dark-text-color);
 
+    text-align: center;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2; /* 120% */
@@ -193,18 +199,18 @@ button {
 }
 
 .footer-logo {
-    color: var(--light-mode-color);
+    color: #4d5ae5;
 
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16px; /* 116.667% */
+    line-height: 1.17; /* 116.667% */
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .footer-logo-accent {
-    color: var(--primary-brand);
+    color: #f4f4fd;
 }
 
 .footer-text {
